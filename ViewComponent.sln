@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextAndDI", "ContextAndD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateContent", "GenerateContent\GenerateContent.csproj", "{FD9D71D5-597A-4413-8CA7-B2E5199957EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseViewComponentResult", "UseViewComponentResult\UseViewComponentResult.csproj", "{1E0BF5CA-CC09-42F6-BF40-D2F692DDB68B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FD9D71D5-597A-4413-8CA7-B2E5199957EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD9D71D5-597A-4413-8CA7-B2E5199957EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD9D71D5-597A-4413-8CA7-B2E5199957EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0BF5CA-CC09-42F6-BF40-D2F692DDB68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0BF5CA-CC09-42F6-BF40-D2F692DDB68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0BF5CA-CC09-42F6-BF40-D2F692DDB68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0BF5CA-CC09-42F6-BF40-D2F692DDB68B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
