@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Person greed = new Person{ Id = Guid.NewGuid(), Name = "GreedNeSS", Age = 30};
+}
+
+<h2>Person Info</h2>
+<div><vc:person-info person="greed" /></div>
+<div>@await Component.InvokeAsync("PersonInfo", new { person = new Person{ Id = Guid.NewGuid(), Age = 45, Name = "Marcus"}})</div>
+<h3>Примеры компонента Time</h3>
+<p>
+    Все значения по умолчанию: <br />
+    @await Component.InvokeAsync("Time")
+</p>
+<p>
+    12-часовой формат: <br />
+    @await Component.InvokeAsync("Time", new { format24 = false })
+</p>
+<p>
+    Без секунд: <br />
+    <vc:time include-seconds=false />
+</p>
+<p>
+    Без секунд и 12-часовой формат: <br />
+    @await Component.InvokeAsync("Time", new { includeSeconds = false, format24 = false })
+</p>
+
+<h3>Пример внедрения зависимоти в компонент представления</h3>
+<div><vc:timer /></div>
